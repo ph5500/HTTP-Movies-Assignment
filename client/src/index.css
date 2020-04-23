@@ -6,7 +6,7 @@ body {
 }
 
 .movie-card {
-  background-color: #fff;
+  background-color: rgb(209, 95, 95);
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
@@ -14,6 +14,7 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  font-size: 20px;
 }
 
 .movie-director {
@@ -54,6 +55,7 @@ body {
   margin: 1rem auto;
 }
 .save-button {
+  border-radius: 15px;
   position: absolute;
   top: 25px;
   right: 25px;
@@ -67,11 +69,19 @@ body {
 }
 
 .home-button {
+  width: 9rem;
+  font-size: 40px;
+  border-radius: 15px;
   padding: 5px 10px;
-  background-color: lightskyblue;
+  background-color: lightgreen;
 }
 
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+button {
+  border-radius: 15px;
+  background-color: lightseagreen;
 }
